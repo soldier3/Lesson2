@@ -1,0 +1,253 @@
+body{
+    background: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #3498db;
+    height: 850px;
+}
+
+.nav{    
+    padding-top: 55px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-shadow: 2px 2px #2e86c1;
+    text-align: center;
+    font-size: 68px;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    margin-top: 230px;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.section_1{
+    height: 1105px;
+}
+
+.aboutUS{
+   margin: -200px auto 0;
+   height: 580px;
+   width: 1140px;
+   background: #fff;
+   border-radius: 8px;
+   border-right: 2px solid #d0d4d4;
+   border-bottom: 2px solid #d0d4d4;
+   overflow: hidden;
+   text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #2c3e50;
+}
+
+.titleAbout{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.aboutUS img{
+    text-align: center;
+    display: block;
+    margin: 30px auto 20px;
+}
+
+.aboutUS > button, .card button{
+    display: block;
+    margin: 60px auto 0;
+    height: 75px;
+    width: 275px;
+    border-radius: 38px;
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    border-top: none;
+    border-left: none;
+    background: #3498db;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ .imgBorder {
+    height: 220px;
+    width: 220px;
+    background: #fff;
+    border-radius: 111px;
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    overflow: hidden;
+ }
+
+
+.buttonArrey{
+    width: 1035px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buttonArrey > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgBorderMagrin {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* Section 2 */
+.section_2{
+    height: 995px;
+    background: #27ae60;
+    text-align: center;
+}
+
+.section_2 h1{
+padding-top: 95px;
+}
+
+.section_2 h1, .section_2 h2{
+    text-transform: uppercase;
+}
+
+.section_2 img{
+    margin-top: 70px;
+}
+
+
+.section_3{
+    text-align: center;
+    text-transform: uppercase;
+    height: 500px;
+    overflow: hidden;
+}
+
+.section_3 h1{
+    margin-top: 70px;
+}
+/* End section 3 */
+
+/* Start section 4 */
+
+.section_4{
+    height: 730px;
+    background: #9b59b6;
+}
+
+.section_4 h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 105px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+.card {
+    text-transform: uppercase;
+    height: 540px;
+    width: 550px;
+    background: #fff;
+    border-radius: 6px;
+    margin: -200px 30px 0 0;
+    box-shadow:   2px 2px  #d0d4d4;
+}
+
+.card h1 {
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.card img {
+    margin: 25px 0;
+}
+
+.card p {
+    margin: 0 0 60px;
+}
+
+.brends{
+    margin: 75px auto 0;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* END section 4 */
+
+/* Start section 5 */
+.section_5{
+    height: 820px;
+}
+
+.section_5 h1{
+    margin: 100px 0 30px;
+}
+
+.section_5{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.social{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* END section 5 */
+/* footer */
+
+footer{
+    height: 145px;
+    background: #282828;
+}
+
+.nav{
+    width: 1170px;
+    text-decoration: underline;
+}
+
+.float_right{
+    float: right;
+}
+
+nav li{
+display: block;
+float: right;
+/*text-decoration: none;*/
+margin-left: 25px;
+color: #ecf0f1;
+font-size: 20px;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+.center{
+    margin: 0 185px;
+}
+
+.buttonArrey h1, .buttonArrey h2{
+    display: inline;
+}
